@@ -54,6 +54,6 @@ public class CalculatorController {
         if (num2 == 0) {
             return "Ошибка! Деление на 0 невозможно";
         }
-        return num1 + " + " + num2 + " = " + calculatorService.divide(num1, num2);
+        return num1 + " / " + num2 + " = " + calculatorService.divide(num1, num2);
     }
 }
